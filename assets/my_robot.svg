@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="500" viewBox="0 0 500 500">
+  <!--Pose variation of the supplied svg/transforms/robot.svg.-->
+  <!--Nested groups keep the hands attached to elbows and feet attached to knees.-->
+  <g id="robot" transform="translate(235 240)">
+    <!--Left leg: bend at the hip and knee; counter-rotate the foot to keep it level.-->
+    <g id="left-leg" transform="translate(-29 55)">
+      <g transform="rotate(15)">
+        <g transform="translate(0 33)">
+          <g transform="scale(0.24 0.66)">
+            <polygon fill="#12345A" points="-50,-50 50,-50 -50,50" />
+            <polygon fill="#12345A" points="-50,50 50,-50 50,50" />
+          </g>
+        </g>
+        <rect x="-8" y="5" width="16" height="56" fill="#2474CC" />
+        <g transform="translate(0 66)">
+          <g transform="rotate(-24)">
+            <g transform="translate(0 32)">
+              <g transform="scale(0.22 0.64)">
+                <polygon fill="#12345A" points="-50,-50 50,-50 -50,50" />
+                <polygon fill="#12345A" points="-50,50 50,-50 50,50" />
+              </g>
+            </g>
+            <rect x="-7" y="7" width="14" height="48" fill="#FDB515" />
+            <g transform="translate(0 64)">
+              <g transform="rotate(9)">
+                <rect x="-23" y="-3" width="43" height="19" fill="#12345A" />
+                <rect x="-19" y="0" width="35" height="10" fill="#2474CC" />
+              </g>
+            </g>
+          </g>
+          <rect x="-12" y="-12" width="24" height="24" fill="#12345A" />
+          <rect x="-7" y="-7" width="14" height="14" fill="#FDB515" />
+        </g>
+      </g>
+    </g>
+    <!--Right leg: a different bend creates an asymmetric, balanced stance.-->
+    <g id="right-leg" transform="translate(29 55)">
+      <g transform="rotate(-25)">
+        <g transform="translate(0 35)">
+          <g transform="scale(0.24 0.7)">
+            <polygon fill="#12345A" points="-50,-50 50,-50 -50,50" />
+            <polygon fill="#12345A" points="-50,50 50,-50 50,50" />
+          </g>
+        </g>
+        <rect x="-8" y="5" width="16" height="60" fill="#2474CC" />
+        <g transform="translate(0 70)">
+          <g transform="rotate(45)">
+            <g transform="translate(0 33.5)">
+              <g transform="scale(0.22 0.67)">
+                <polygon fill="#12345A" points="-50,-50 50,-50 -50,50" />
+                <polygon fill="#12345A" points="-50,50 50,-50 50,50" />
+              </g>
+            </g>
+            <rect x="-7" y="7" width="14" height="51" fill="#FDB515" />
+            <g transform="translate(0 67)">
+              <g transform="rotate(-20)">
+                <rect x="-19" y="-3" width="43" height="19" fill="#12345A" />
+                <rect x="-15" y="0" width="35" height="10" fill="#2474CC" />
+              </g>
+            </g>
+          </g>
+          <rect x="-12" y="-12" width="24" height="24" fill="#12345A" />
+          <rect x="-7" y="-7" width="14" height="14" fill="#FDB515" />
+        </g>
+      </g>
+    </g>
+    <!--Left arm: the forearm rotates relative to the upper arm to bring the hand to the hip.-->
+    <g id="left-arm" transform="translate(-50 -32)">
+      <g transform="rotate(135)">
+        <g transform="translate(33 0)">
+          <g transform="scale(0.66 0.22)">
+            <polygon fill="#12345A" points="-50,-50 50,-50 -50,50" />
+            <polygon fill="#12345A" points="-50,50 50,-50 50,50" />
+          </g>
+        </g>
+        <rect x="5" y="-7" width="56" height="14" fill="#2474CC" />
+        <g transform="translate(66 0)">
+          <g transform="rotate(-90)">
+            <g transform="translate(31.5 0)">
+              <g transform="scale(0.63 0.2)">
+                <polygon fill="#12345A" points="-50,-50 50,-50 -50,50" />
+                <polygon fill="#12345A" points="-50,50 50,-50 50,50" />
+              </g>
+            </g>
+            <rect x="6" y="-6" width="49" height="12" fill="#FDB515" />
+            <g transform="translate(63 0)">
+              <rect x="-6" y="-12" width="25" height="24" fill="#12345A" />
+              <rect x="-2" y="-8" width="17" height="16" fill="#FDB515" />
+            </g>
+          </g>
+          <rect x="-12" y="-12" width="24" height="24" fill="#12345A" />
+          <rect x="-7" y="-7" width="14" height="14" fill="#FDB515" />
+        </g>
+      </g>
+      <rect x="-12" y="-12" width="24" height="24" fill="#12345A" />
+      <rect x="-7" y="-7" width="14" height="14" fill="#FDB515" />
+    </g>
+    <!--Right arm: raised shoulder, bent elbow, and a slightly tilted open hand.-->
+    <g id="waving-arm" transform="translate(50 -32)">
+      <g transform="rotate(-30)">
+        <g transform="translate(33 0)">
+          <g transform="scale(0.66 0.22)">
+            <polygon fill="#12345A" points="-50,-50 50,-50 -50,50" />
+            <polygon fill="#12345A" points="-50,50 50,-50 50,50" />
+          </g>
+        </g>
+        <rect x="5" y="-7" width="56" height="14" fill="#2474CC" />
+        <g transform="translate(66 0)">
+          <g transform="rotate(-50)">
+            <g transform="translate(33.5 0)">
+              <g transform="scale(0.67 0.2)">
+                <polygon fill="#12345A" points="-50,-50 50,-50 -50,50" />
+                <polygon fill="#12345A" points="-50,50 50,-50 50,50" />
+              </g>
+            </g>
+            <rect x="6" y="-6" width="53" height="12" fill="#FDB515" />
+            <g transform="translate(67 0)">
+              <g id="open-hand" transform="rotate(8)">
+                <rect x="-3" y="-11" width="9" height="22" fill="#12345A" />
+                <rect x="3" y="-14" width="22" height="28" fill="#FDB515" />
+                <rect x="23" y="-13" width="13" height="5" fill="#FDB515" />
+                <rect x="23" y="-6" width="19" height="5" fill="#FDB515" />
+                <rect x="23" y="1" width="21" height="5" fill="#FDB515" />
+                <rect x="23" y="8" width="16" height="5" fill="#FDB515" />
+                <rect x="7" y="12" width="8" height="14" fill="#FDB515" />
+                <rect x="11" y="-9" width="4" height="18" fill="#12345A" />
+              </g>
+            </g>
+          </g>
+          <rect x="-12" y="-12" width="24" height="24" fill="#12345A" />
+          <rect x="-7" y="-7" width="14" height="14" fill="#FDB515" />
+        </g>
+      </g>
+      <rect x="-12" y="-12" width="24" height="24" fill="#12345A" />
+      <rect x="-7" y="-7" width="14" height="14" fill="#FDB515" />
+    </g>
+    <rect x="-10" y="-74" width="20" height="28" fill="#12345A" />
+    <rect x="-6" y="-72" width="12" height="23" fill="#FDB515" />
+    <!--Torso: the starter square, with a blue shell and gold panel details.-->
+    <g transform="translate(0 5)">
+      <g transform="scale(1 1.1)">
+        <polygon fill="#12345A" points="-50,-50 50,-50 -50,50" />
+        <polygon fill="#12345A" points="-50,50 50,-50 50,50" />
+      </g>
+    </g>
+    <rect x="-45" y="-45" width="90" height="100" fill="#2474CC" />
+    <rect x="-45" y="-45" width="90" height="12" fill="#FDB515" />
+    <rect x="-45" y="43" width="90" height="12" fill="#12345A" />
+    <rect x="-31" y="-21" width="62" height="43" fill="#12345A" />
+    <rect x="-23" y="1" width="10" height="13" fill="#FDB515" />
+    <rect x="-5" y="-5" width="10" height="19" fill="#FDB515" />
+    <rect x="13" y="-11" width="10" height="25" fill="#FDB515" />
+    <rect x="-34" y="30" width="8" height="6" fill="#C9F1FF" />
+    <rect x="-21" y="30" width="8" height="6" fill="#C9F1FF" />
+    <rect x="24" y="28" width="11" height="9" fill="#FDB515" />
+    <!--Head: tilt the entire helmet, antenna, and face together.-->
+    <g id="head" transform="translate(0 -104)">
+      <g transform="rotate(10)">
+        <rect x="-4" y="-53" width="8" height="23" fill="#12345A" />
+        <g transform="translate(0 -55)">
+          <g transform="rotate(45)">
+            <g transform="scale(0.13 0.13)">
+              <polygon fill="#FDB515" points="-50,-50 50,-50 -50,50" />
+              <polygon fill="#FDB515" points="-50,50 50,-50 50,50" />
+            </g>
+          </g>
+        </g>
+        <rect x="-46" y="-10" width="12" height="21" fill="#FDB515" />
+        <rect x="34" y="-10" width="12" height="21" fill="#FDB515" />
+        <g transform="scale(0.8 0.68)">
+          <polygon fill="#12345A" points="-50,-50 50,-50 -50,50" />
+          <polygon fill="#12345A" points="-50,50 50,-50 50,50" />
+        </g>
+        <rect x="-35" y="-29" width="70" height="58" fill="#2474CC" />
+        <rect x="-29" y="-19" width="58" height="29" fill="#12345A" />
+        <rect x="-22" y="-12" width="15" height="14" fill="#C9F1FF" />
+        <rect x="7" y="-12" width="15" height="14" fill="#C9F1FF" />
+        <rect x="-15" y="-8" width="5" height="8" fill="#12345A" />
+        <rect x="14" y="-8" width="5" height="8" fill="#12345A" />
+        <rect x="-14" y="15" width="5" height="5" fill="#FDB515" />
+        <rect x="9" y="15" width="5" height="5" fill="#FDB515" />
+        <rect x="-9" y="20" width="18" height="4" fill="#FDB515" />
+      </g>
+    </g>
+  </g>
+</svg>

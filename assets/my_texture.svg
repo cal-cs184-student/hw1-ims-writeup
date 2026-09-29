@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     width="200" height="200"
+     viewBox="0 0 200 200">
+  <!-- Course-specific texture elements; open this file with draw.exe. -->
+  <texture filename="../../img/my_texture.png" texid="poster"/>
+  <textri texid="poster"
+          uvs="0 0 1 0 0 1"
+          points="35.726495726 20 164.273504274 20 35.726495726 180"/>
+  <textri texid="poster"
+          uvs="1 0 0 1 1 1"
+          points="164.273504274 20 35.726495726 180 164.273504274 180"/>
+</svg>
